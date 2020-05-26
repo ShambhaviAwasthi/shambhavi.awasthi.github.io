@@ -1,0 +1,31 @@
+body{
+  background-color: #ececec;
+  font-stretch: ultra-condensed
+}
+hr{
+  background-color: #3b6978;
+  border-color: #3b6978;
+  border-width: 2px;
+}
+h1{
+  color: #162447;
+}
+p{
+  color: #162447;
+}
+strong{
+  color: #162447;
+}
+ul{
+  color: #00263b;
+}
+img{
+  border-radius: 100%;
+  border-color: #162447;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border: 2px solid #162447;
+
+}
