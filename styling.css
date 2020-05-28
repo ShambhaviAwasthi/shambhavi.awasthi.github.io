@@ -2,6 +2,10 @@ body{
   background-color: #ececec;
   font-stretch: ultra-condensed
 }
+* {
+  box-sizing: border-box;
+}
+
 hr{
   background-color: #3b6978;
   border-color: #3b6978;
