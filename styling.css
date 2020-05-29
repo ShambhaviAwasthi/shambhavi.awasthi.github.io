@@ -2,10 +2,6 @@ body{
   background-color: #ececec;
   font-stretch: ultra-condensed
 }
-* {
-  box-sizing: border-box;
-}
-
 hr{
   background-color: #3b6978;
   border-color: #3b6978;
@@ -30,10 +26,6 @@ ul{
 .profile-img{
   border-radius: 100%;
   border-color: #162447;
-  display: block;
-  margin-top: 1.875rem;
-  margin-left: 6.25rem;
-  margin-right: 31.25rem;
   padding: 0.0625rem;
   border: 0.125rem solid #162447;
 
@@ -44,9 +36,6 @@ ul{
   margin: 0;
   filter: blur(0.1875rem);
   -webkit-filter: blur(0.1875rem);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .bg-text {
   font-family: 'Montserrat', sans-serif;
@@ -55,7 +44,7 @@ ul{
   color: white;
   font-weight: bold;
   border: 0.1875rem solid #f1f1f1;
-  position: absolute;
+  margin: -15% 50% auto 50%;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -67,6 +56,33 @@ ul{
 .Shambhavi{
   color: #ececec;
 }
+
+.st{
+  color: #162447;
+}
 .align{
-  text-align-last: left;
+  color: #162447;
+}
+.image-container{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 600px;  height:250px; background:#8db1ab;
+  border-radius: 25px;
+  border: 2px solid #162447;
+
+}
+.info-container{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 600px;  height: 250px; background:#8db1ab;
+  border-radius: 25px;
+  border: 2px solid #162447;
 }
